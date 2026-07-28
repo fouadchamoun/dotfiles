@@ -83,3 +83,7 @@ source <(switch completion zsh)
 eval "$(scw autocomplete script shell=zsh)"
 
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Podman completion
+eval "$(podman completion zsh)"
+compdef _podman docker
