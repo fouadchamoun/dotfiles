@@ -53,7 +53,7 @@ source /opt/homebrew/opt/spaceship/spaceship.zsh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='cot'
 else
-  export EDITOR='cot'
+  export EDITOR='cot --wait'
 fi
 #export KUBE_EDITOR='cot'
 
