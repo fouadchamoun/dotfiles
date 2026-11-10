@@ -86,3 +86,6 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # Podman completion
 eval "$(podman completion zsh)"
 compdef _podman docker
+
+
+export NODE_EXTRA_CA_CERTS="$HOME/Repositories/scaleway/ca.crt"
